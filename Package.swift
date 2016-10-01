@@ -4,9 +4,6 @@ let package = Package(
     name: "SeeURL",
     targets: [
         Target(
-            name: "UnitTests",
-            dependencies: [.Target(name: "SeeURL")]),
-        Target(
             name: "SeeURL")
     ],
     dependencies: [
